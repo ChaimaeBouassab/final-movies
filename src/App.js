@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import MovieList from './MovieList';
 import Filter from './Filter';
 
+import './App.css';
+
 function App() {
   const [movies, setMovies] = useState([
     {

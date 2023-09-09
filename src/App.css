@@ -6,7 +6,7 @@
 
 
 .App-logo {
-  height: 40vmin;
+  height: 50vmin;
   pointer-events: none;
 }
 
@@ -47,7 +47,7 @@
 
 
 .movie-poster {
-  width: 10px; /* Ajustez la largeur de l'affiche selon vos besoins */
+  width: 400px; /* Ajustez la largeur de l'affiche selon vos besoins */
   height: auto;
   border: 2px solid #ccc;
   /* Autres styles pour les affiches */
@@ -57,7 +57,20 @@
 /* App.css */
 
 .logo-image {
-  width: 30px; /* Set the desired width for the logo */
+  width: 700px; /* Set the desired width for the logo */
   height: auto; /* Let the height adjust proportionally */
 }
 
+/* App.css */
+
+/* You can target the img elements within a specific class or ID if needed */
+.img-container img {
+  width: 200px; /* Set the desired width */
+  height: auto; /* Auto-calculate height to maintain aspect ratio */
+}
+
+/* Alternatively, you can directly target all img elements if that's what you want */
+img {
+  width: 200px; /* Set the desired width */
+  height: auto; /* Auto-calculate height to maintain aspect ratio */
+}
